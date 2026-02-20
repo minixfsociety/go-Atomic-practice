@@ -19,6 +19,4 @@ We use `atomic.StoreInt64` to perform a **thread-safe write** operation.
 3. **The Update**: After 3 seconds, we use `atomic.StoreInt64(&sleepTime, 100)`.
 4. **The Result**: The server suddenly starts working 10 times faster.
 
-## How to Run
-```bash
-go run atomic_store.go
+
